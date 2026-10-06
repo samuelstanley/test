@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# run outputs, downloads and archives (archives are history: back them up, don't commit)
+output/
+data/cache/
+data/archive/

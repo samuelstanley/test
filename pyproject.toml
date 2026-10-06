@@ -1,0 +1,26 @@
+[project]
+name = "latam-gas-snd"
+version = "0.1.0"
+description = "Daily natural gas supply/demand balance for Argentina, Brazil, Colombia, Bolivia, Chile and Uruguay"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0",
+    "numpy",
+    "requests",
+    "beautifulsoup4",
+    "lxml",
+    "openpyxl",
+    "pdfplumber",
+    "pyarrow",
+    "xlrd",
+]
+
+[project.optional-dependencies]
+kpler = ["kpler.sdk"]
+dev = ["pytest", "reportlab"]
+
+[tool.setuptools]
+packages = ["latam_gas_snd", "latam_gas_snd.sources"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,14 @@
+pandas>=2.0
+numpy
+requests
+beautifulsoup4
+lxml
+openpyxl
+pdfplumber
+pyarrow
+xlrd
+# optional: Chile LNG (needs KPLER_EMAIL / KPLER_PASSWORD)
+# kpler.sdk
+# tests
+pytest
+reportlab

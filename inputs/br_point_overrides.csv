@@ -1,0 +1,7 @@
+# Overrides for ANP point classification. One row per point (transporter optional).
+# category: production | lng | bolivia_border | uruguaiana | biomethane | power | refinery |
+#           fertiliser | city_gate | export | interconnection | unclassified
+# state: two-letter UF, used for the "by category and state" drill-down.
+# Points not listed here are classified by the rules in latam_gas_snd/config.py (BR_CATEGORIES);
+# unmatched points are listed in the Brazil drill-down "BR checks" and "Point list" sheets.
+point,transporter,category,state,note
